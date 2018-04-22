@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hanyulee/24783/src/SimpleLazyTeam/beta_version/src/public/src/fsguilib/src/macosx/fsguiclipboard_mac.m
+Cocoa/Cocoa.h
+-
+

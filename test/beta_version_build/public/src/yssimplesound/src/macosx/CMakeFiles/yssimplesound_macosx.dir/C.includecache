@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hanyulee/24783/src/SimpleLazyTeam/beta_version/src/public/src/yssimplesound/src/macosx/yssimplesound_macosx_objc.m
+Cocoa/Cocoa.h
+-
+

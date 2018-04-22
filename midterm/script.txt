@@ -1,0 +1,17 @@
+Hi everyone, we are simplelazyteam. I am Han-Yu, and this is … … … …. Today I’m going to present our project “Sequential Line Search for  Efficient Photo Parameters Tweaking”
+
+We are choosing option A, and this is the paper we are referencing: “Sequential Line Search for Efficient Visual Design Optimization by Crowds” by Yuki Koyama et all.
+Let me show you a video of what this paper is about.
+
+We can think of our task as photoshopping a photo. We want to tweak parameters in order to get a great photo. There is a lot of parameters to tweak. For example, brightness, contrast, sharpness, saturation, warmth and so on. When photoshopping,  we often have to adjust the first parameter, then the second, then the third, then maybe go back to the first and adjust again. It is a tedious process and could easily take up a lot of time and get people frustrated. Our goal here, is to simplify those high dimensional parameter space into a series of one single dimensional line search. Then we can use this one dimensional line to tweak several parameters simultaneously.
+
+We have identified our unit technologies here. We separate them into 2 main parts. The first part is the mathematic part. We are going to implement “sequential line search using bayesian optimization”. This is a technique where we find maximum for an unknown objective function. In our case, the best parameter set for the photo. We start by initialing the 2 ends of the slide bar randomly in the parameter space. Then ask our user to pick a point in the slide space which he/she think has the best result of the photo. This chosen point is then used to find out a best-expected-improving position in the parameter space. After that the chosen point and the calculated best-expected-improving position is used to form a new slide bar. We then again inquire our user to pick out a point. This process is repeated several times until the user is satisfied with the photo.
+The second part of our unit technologies is GUI and rendering. We are going to implement user interface where our user can slide a bar to adjust parameters and import and export their images.
+We are also going to implement image redesign function such as decode a image, apply image filters and encoding the images.
+
+We have come up with a Gantt chart and separate our task into smaller pieces. We are aiming at finishing everything before the end of April.
+
+This is the paper we are referencing.
+
+This is the end of our presentation. Thank you.
+Do you have any questions?
