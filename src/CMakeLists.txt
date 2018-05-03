@@ -23,3 +23,4 @@ add_subdirectory(GUI)
 add_subdirectory(yhh)  # Yen-Hsiang's play ground
 add_subdirectory(assemble)	# Han-Yu assemble place
 add_subdirectory(hanyu)     # Han-Yu math playground
+add_subdirectory(jiayi/hanyu)     # Han-Yu math playground
