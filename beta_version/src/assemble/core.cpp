@@ -5,7 +5,7 @@
 //#include "sliderutility.h"
 #include "slider_hy.h"
 //#include "expectedimprovementmaximizer.h"
-#include "regressor_hy.h"
+#include "regressor.h"
 
 namespace
 {

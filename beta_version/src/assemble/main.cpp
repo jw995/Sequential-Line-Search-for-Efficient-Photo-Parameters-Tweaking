@@ -45,7 +45,7 @@ OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "filter.h"
 
 #include "core.h"
-#include "regressor_hy.h"
+#include "regressor.h"
 
 
 class FsLazyWindowApplication : public FsLazyWindowApplicationBase

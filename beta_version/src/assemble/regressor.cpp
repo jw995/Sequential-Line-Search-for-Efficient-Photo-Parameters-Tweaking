@@ -1,4 +1,4 @@
-#include "regressor_hy.h"
+#include "regressor.h"
 #include "utility.h"
 #include <iostream>
 #include <fstream>
